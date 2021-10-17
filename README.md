@@ -9,7 +9,7 @@
 
 ## Images
 
-    ![alt lab1-screenshot](lab1-screenshot.png)
+    ![lab1-screenshot](lab1-screenshot.png)
 
 
 ## Contribution
