@@ -9,7 +9,8 @@
 
 ## Images
 
-    ![lab1-screenshot.png](lab1-screenshot.png)
+    ![screenshot](lab1-screenshot.png)
+
 
 
 ## Contribution
