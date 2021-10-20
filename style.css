@@ -17,7 +17,8 @@ nav {
     padding-left: 0%;
 }
 
-li, a {
+li,
+a {
     text-decoration: none;
     list-style-type: none;
     padding-left: 0;
@@ -25,7 +26,10 @@ li, a {
 
 #black-title {
     color: #000;
-    font-weight: bold;
+    font-weight: bolder;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 1em;
 }
 
 .gray-title {
@@ -41,7 +45,7 @@ main {
 button {
     background-color: #000;
     color: #FFF;
-    width:400px ;
+    width: 400px;
     height: 37px;
     border-radius: 25px;
 }
@@ -65,7 +69,8 @@ footer {
 
 h2 {
     font-size: small;
-    margin-left: 10px;
+    margin: 10px;
+    font-size: 1rem;
 }
 
 .footer {
@@ -80,9 +85,102 @@ h2 {
     display: inline;
 }
 
-.footer-link  a {
+.footer-link a {
     margin-left: 10px;
     color: #69696a;
     text-decoration: none;
     font-size: small;
+}
+
+/* Lab 1-Part 2 */
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 100%;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    nav ul .gray-title {
+        list-style-type: none;
+    }
+
+    .nav-links {
+        display: inline-flex;
+        margin-right: 25px;
+    }
+
+    .gray-title {
+        margin-right: 15px;
+    }
+
+    #nav-button {
+        max-width: 75px;
+        margin-top: 8px;
+    }
+
+    main {
+        margin-top: 100px;
+        max-width: 50%;
+    }
+
+    button {
+        width: 50vw;
+    }
+
+    #pink-circle {
+        background-color: rgba(247, 136, 167, 0.6);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: fixed;
+        right: 0;
+        margin-right: 75px;
+        top: 20%;
+    }
+
+    #purple-circle {
+        background-color: rgba(207, 130, 213, 0.6);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: fixed;
+        right: 0;
+        margin-right: 25px;
+        top: 24%;
+    }
+
+    #orange-circle {
+        background-color: rgba(247, 193, 162, 0.7);
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: fixed;
+        right: 0;
+        margin-right: 25px;
+        top: 32%;
+    }
+
+    .circles-div {
+        display: flex;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .footer {
+        position: fixed;
+        right: 0;
+        margin-right: 25px;
+    }
+
 }
