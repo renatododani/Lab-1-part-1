@@ -9,7 +9,7 @@
 
 ## Images
 
-    ![screenshot](Lab-1-part-1/lab1-screenshot.png)
+    ![screenshot](/lab1-screenshot.png)
 
 
 
